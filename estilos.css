@@ -1,0 +1,475 @@
+/* Estilos generales */
+/* Se establece el modelo de caja border-box para todos los elementos */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+  
+  /* Se establecen los estilos de fuente y tamaño para el body */
+  body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  }
+  
+  /* Estilos para la navegación en el encabezado */
+  nav ul {
+  display: flex;
+  list-style: none;
+  }
+  
+  nav ul li {
+  margin-right: 1rem;
+  }
+  
+  nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  }
+  
+  /* Estilos para la sección de bienvenida */
+  .bienvenida {
+  background-image: url('img/fondo.jpg');
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  }
+  
+  .bienvenida h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  }
+  
+  .bienvenida p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  max-width: 50%;
+  }
+  
+  .boton-cta {
+  background-color: #fff;
+  color: #333;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: background-color 0.3s ease;
+  }
+  
+  .boton-cta:hover {
+  background-color: #333;
+  color: #fff;
+  }
+  
+  /* Estilos para la sección de testimonios */
+  .testimonios {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  text-align: center;
+  }
+  
+  .testimonios h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  }
+  
+  .testimonios ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  }
+  
+  .testimonios li {
+  flex-basis: calc(33.33% - 2rem);
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  .testimonios li p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  }
+  
+  .testimonios li span {
+  font-weight: bold;
+  }
+
+/* Estilos para el pie de página */
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 1rem;
+text-align: center;
+}
+
+
+
+/*blog*/
+/* Blog section */
+/*Este bloque de código define la apariencia de la sección del blog en una página web.*/
+.blog {
+background-color: #f9f9f9;
+padding: 60px 0;
+}
+
+/* Define el ancho máximo y los márgenes laterales para el contenedor principal de la sección del blog.*/
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+/* Centra el título principal de la sección del blog y define un margen inferior.*/
+.blog h2 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+/* Crea una rejilla de elementos para mostrar las entradas del blog.*/
+.blog-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+grid-gap: 30px;
+}
+
+/* Define la apariencia de cada entrada del blog.*/
+.blog-item {
+background-color: #fff;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Define la apariencia de la imagen de cada entrada del blog.*/
+.blog-item img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+/* Define la apariencia del título de cada entrada del blog.*/
+.blog-item h3 {
+font-size: 24px;
+margin: 20px 20px 10px;
+}
+
+/* Define la apariencia de la fecha de cada entrada del blog.*/
+.blog-item .blog-date {
+font-size: 16px;
+margin: 0 20px 10px;
+color: #999;
+}
+
+/*Define la apariencia del resumen de cada entrada del blog.*/
+.blog-item .blog-excerpt {
+font-size: 16px;
+margin: 0 20px 20px;
+}
+
+/* Define la apariencia del botón "Leer más".*/
+.btn-read-more {
+display: block;
+text-align: center;
+margin: 20px;
+padding: 10px 20px;
+background-color: #222;
+color: yellow;
+}
+  /*registro*/
+  /* Register Section */
+  #register {
+    background-color: #f7f7f7;
+    padding: 50px;
+    }
+    /* Define el estilo para el bloque de registro */
+    
+    #register h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+    }
+    /* Define el estilo para el título del bloque de registro */
+    
+    #register form {
+    max-width: 600px;
+    margin: 0 auto;
+    }
+    /* Define el estilo para el formulario dentro del bloque de registro */
+    
+    #register label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    }
+    /* Define el estilo para las etiquetas de los campos del formulario en el bloque de registro */
+    
+    #register input, #register select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    }
+    /* Define el estilo para los campos de entrada de texto y seleccionables en el formulario en el bloque de registro */
+    
+    #register select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000000'%3E%3Cpath d='M14.84 4.84c-.38-.38-1-.38-1.38 0L8 10.62 2.54 5.16c-.38-.38-1-.38-1.38 0-.38.38-.38 1 0 1.38l6 6c.38.38 1 .38 1.38 0l6-6c.38-.38.38-1 0-1.38z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 15px 15px;
+    }
+    /* Define el estilo para el campo de selección en el formulario en el bloque de registro */
+    
+    #register button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    }
+
+/* galería*/
+
+.gallery {
+  margin: 50px 0;
+}
+
+.gallery h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gallery-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.gallery-full img {
+  width: 25%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.gallery-full img:hover {
+  transform: scale(1.1);
+}
+
+.gallery-thumbnails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.gallery-thumbnails img {
+  width: 15%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+  border: 2px solid transparent;
+}
+
+.gallery-thumbnails img:hover {
+  border-color: #2196f3;
+}
+
+
+/* Estilo para la sección de programas */
+.programas {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+  
+  /* Estilo para el título de la sección de programas */
+.programas-titulo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+  
+.programas-titulo h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.programas-titulo p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #888;
+}
+  
+  /* Estilo para el contenedor de los programas */
+.programas-contenido {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+  
+  /* Estilo para cada programa */
+.programa {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 20px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+  
+.programa:hover {
+  transform: translateY(-5px);
+}
+  
+  /* Estilo para el título de cada programa */
+.programa h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+  
+  /* Estilo para la descripción de cada programa */
+.programa p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #888;
+  margin-bottom: 20px;
+}
+  
+  /* Estilo para el botón CTA de cada programa */
+.boton-cta {
+  display: inline-block;
+  background-color: #ff6b6b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+  
+.boton-cta:hover {
+  background-color: #ff4d4d;
+}
+/* contacto*/
+/* Estilos para la sección de contacto */
+.contacto {
+  background-color: #f9f9f9;
+  padding: 50px;
+}
+  
+  /* Estilos para el título de la sección de contacto */
+.contacto-titulo {
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+  /* Estilos para el texto del título de la sección de contacto */
+.contacto-titulo h2 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+  
+.contacto-titulo p {
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+  
+  /* Estilos para el formulario de contacto */
+  #formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  }
+  
+  /* Estilos para los campos de entrada del formulario */
+.form-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+  
+.form-input label {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+  
+.form-input input,
+.form-input textarea {
+  padding: 10px;
+  font-size: 1.2em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+  
+.form-input input:focus,
+.form-input textarea:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+  
+  /* Estilos para los botones de envío y borrado del formulario */
+.form-input input[type="submit"],
+.form-input input[type="reset"] {
+  padding: 10px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  background-color: #0066cc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+  
+.form-input input[type="submit"]:hover {
+  background-color: #004080;
+}
+  
+.form-input input[type="reset"]:hover {
+  background-color: #cc0000;
+}
+  
+  /* Estilos para los botones de envío y borrado del formulario */
+.form-botones {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}

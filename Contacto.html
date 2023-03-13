@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" >
+
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><a href="PaginaInicio.html">Inicio</a></li>
+            <li><a href="ProgramaEntrenamiento.html">Programa de entrenamiento</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Galeria_de_imagenes.html"> Galería de imágenes</a></li>
+            <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contacto">
+        <div class="contacto-titulo">
+            <h2>Contacta con nosotros</h2>
+            <p>Si tienes alguna pregunta o necesitas ayuda, no dudes en ponerte en contacto con nosotros.</p>
+        </div>
+        <form id="formulario-contacto" action="#" method="post">
+        <div class="form-input">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-input">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-input">
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-input">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+        <div class="form-botones">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+        </form>
+    </section>
+
+</body>
+</html>
